@@ -24,7 +24,12 @@ DRAM details:-
             Page Mode Access for each bank. Accessing a block (read/write) from Buffered Page takes 32 cycles but reading a page from the row to the page buffer takes 128 cycles, and writing the page buffer to a row of the bank takes 256 cycles.
             Every channel has a block access status register(BSHR) and it can store, information about 8 block accesses.The information can be read, write, served, and ready to serve.
             
- Other assumptions:-Transferring a block from Memory to Processor (or Processor to Memory) takes consecutive 9 cycles (one cycle for information sender, receiver, and address and 8 cycles for data of the cache block). The BUS uses FCFS policy. The 4-bit control is used for (a) processor request line and granted line and (b) Memory request line and granted line. The grant line can be activated for 10 cycles for a![abstract view of design](https://github.com/SreehariC/Verilog_Cache_DRAM_Implimentation/assets/95119050/ea17856d-718f-4cd2-b152-b606c7be8490)
-![communication between cache memory and memory controller](https://github.com/SreehariC/Verilog_Cache_DRAM_Implimentation/assets/95119050/5464ee54-3e1d-467c-a40a-bdbcfabfcee7)
- request
+ Other assumptions:-Transferring a block from Memory to Processor (or Processor to Memory) takes consecutive 9 cycles (one cycle for information sender, receiver, and address and 8 cycles for data of the cache block). The BUS uses FCFS policy. The 4-bit control is used for (a) processor request line and granted line and (b) Memory request line and granted line. The grant line can be activated for 10 cycles for a request.
+ 
+ ##Abstract view of design
+ [abstract view of design](https://github.com/SreehariC/Verilog_Cache_DRAM_Implimentation/assets/95119050/ea17856d-718f-4cd2-b152-b606c7be8490)
+ 
+ ##Communication between cache,memory and memory controller by a common data bus
+[communication between cache memory and memory controller](https://github.com/SreehariC/Verilog_Cache_DRAM_Implimentation/assets/95119050/5464ee54-3e1d-467c-a40a-bdbcfabfcee7)
+
             
