@@ -32,4 +32,11 @@ DRAM details:-
  ##Communication between cache,memory and memory controller by a common data bus
 [communication between cache memory and memory controller](https://github.com/SreehariC/Verilog_Cache_DRAM_Implimentation/assets/95119050/5464ee54-3e1d-467c-a40a-bdbcfabfcee7)
 
+##Simulation Results:-
+              - DRAM simulation
+                          
+![Screenshot (116) (1)](https://github.com/SreehariC/Verilog_Cache_DRAM_Implimentation/assets/95119050/672f2ea6-1635-4c55-abc3-bfe3fef7cc17)
+
+            
+
             
