@@ -38,7 +38,9 @@ DRAM details:-
 ![Screenshot (116) (1)](https://github.com/SreehariC/Verilog_Cache_DRAM_Implimentation/assets/95119050/672f2ea6-1635-4c55-abc3-bfe3fef7cc17)
 
             - Cache simulation
-
             
+![cache_simm](https://github.com/SreehariC/Verilog_Cache_DRAM_Implimentation/assets/95119050/526ef87b-3f00-4f72-9572-0fd487304b0a)
 
-            
+            - Design Reports
+
+![lutt](https://github.com/SreehariC/Verilog_Cache_DRAM_Implimentation/assets/95119050/839d1bfd-d3df-406a-91eb-64251c0e8a8c)
